@@ -1,0 +1,1282 @@
+[
+	{
+		"Name": "Dust",
+		"ParticleType": "Dust",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": []
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 5000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Dust/NS_Dust_1.NS_Dust_1"
+		]
+	},
+	{
+		"Name": "FallingDust",
+		"ParticleType": "FallingDust",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery",
+				"Emission",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 5000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_Concrete_1.NS_FallingDust_Concrete_1",
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_Concrete_2.NS_FallingDust_Concrete_2",
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_Concrete_3.NS_FallingDust_Concrete_3",
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_Concrete_4.NS_FallingDust_Concrete_4",
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_Concrete_5.NS_FallingDust_Concrete_5",
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_Concrete_6.NS_FallingDust_Concrete_6",
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_Concrete_2_burst.NS_FallingDust_Concrete_2_burst",
+			"/Game/_Stalker_2/VFX/Environment/FallingDust/NS_FallingDust_DoorOpen.NS_FallingDust_DoorOpen"
+		]
+	},
+	{
+		"Name": "Embers",
+		"ParticleType": "Embers",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery",
+				"Emission",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 10000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Embers/NS_Embers_Down.NS_Embers_Down",
+			"/Game/_Stalker_2/VFX/Environment/Embers/NS_Embers_Up.NS_Embers_Up"
+		]
+	},
+	{
+		"Name": "FlyingGarbage",
+		"ParticleType": "FlyingGarbage",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery",
+				"Emission",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 6000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/FlyingGarbage/Niagara/NS_FlyingGarbage_1.NS_FlyingGarbage_1",
+			"/Game/_Stalker_2/VFX/Environment/FlyingGarbage/Niagara/NS_FlyingGarbage_2.NS_FlyingGarbage_2",
+			"/Game/_Stalker_2/VFX/Environment/FlyingGarbage/Niagara/NS_FlyingGarbage_3.NS_FlyingGarbage_3",
+			"/Game/_Stalker_2/VFX/Environment/FlyingGarbage/Niagara/NS_FlyingGarbage_4.NS_FlyingGarbage_4"
+		]
+	},
+	{
+		"Name": "FireBarrel",
+		"ParticleType": "FireBarrel",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery",
+				"Emission",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 1000,
+			"AllowedNPCTypes": [
+				"Human"
+			]
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 0
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire",
+			"/Game/_Stalker_2/VFX/Cinematic/E06_MQ02/NS_CIN_Fire_Ground.NS_CIN_Fire_Ground",
+			"/Game/_Stalker_2/VFX/Cinematic/E06_MQ02/NS_CIN_Fire_Ground_2.NS_CIN_Fire_Ground_2",
+			"/Game/_Stalker_2/VFX/Cinematic/E06_MQ02/NS_CIN_Fire_Ground_Wall.NS_CIN_Fire_Ground_Wall"
+		]
+	},
+	{
+		"Name": "Bonfire",
+		"ParticleType": "Bonfire",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"HalfOpen",
+				"Close",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery",
+				"Emission",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 1000,
+			"AllowedNPCTypes": [
+				"Human"
+			]
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 0
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire"
+		]
+	},
+	{
+		"Name": "PipeSmoke",
+		"ParticleType": "PipeSmoke",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery",
+				"Emission",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 10000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/PipeSmoke/NS_PipeSmoke_1.NS_PipeSmoke_1"
+		]
+	},
+	{
+		"Name": "Smoke",
+		"ParticleType": "Smoke",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Emission",
+				"Thundery",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 10000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Smoke/NS_Env_Smoke_1.NS_Env_Smoke_1",
+			"/Game/_Stalker_2/VFX/Environment/Smoke/NS_Env_Smoke_2.NS_Env_Smoke_2",
+			"/Game/_Stalker_2/VFX/Environment/Diesel_Generator/NS_Diesel_Generator.NS_Diesel_Generator",
+			"/Game/_Stalker_2/VFX/Environment/Smoke/NS_Env_Smoke_3.NS_Env_Smoke_3",
+			"/Game/_Stalker_2/VFX/Environment/Smoke/NS_Env_Smoke_Cigarette.NS_Env_Smoke_Cigarette"
+		]
+	},
+	{
+		"Name": "Fog",
+		"ParticleType": "Fog",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": []
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 10000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Fog/Niagara/NS_Fog_1.NS_Fog_1",
+			"/Game/_Stalker_2/VFX/Environment/Fog/Niagara/NS_Fog_2.NS_Fog_2"
+		]
+	},
+	{
+		"Name": "WaterLeaks",
+		"ParticleType": "WaterLeaks",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"None"
+			],
+			"ForbiddenBandwidthTypes": [
+				"None"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery",
+				"Emission",
+				"CalmBeforeEmission"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 5000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/WaterLeaks/Niagara/NS_Water_Dripping_1.NS_Water_Dripping_1",
+			"/Game/_Stalker_2/VFX/Environment/WaterLeaks/Niagara/NS_Water_Dripping_2.NS_Water_Dripping_2",
+			"/Game/_Stalker_2/VFX/Environment/WaterLeaks/Niagara/NS_Water_Dripping_3.NS_Water_Dripping_3",
+			"/Game/_Stalker_2/VFX/Environment/WaterLeaks/Niagara/NS_Water_Dripping_4.NS_Water_Dripping_4",
+			"/Game/_Stalker_2/VFX/Environment/WaterLeaks/Niagara/NS_Water_Dripping_5.NS_Water_Dripping_5",
+			"/Game/_Stalker_2/VFX/Environment/Caves/NS_Caves_Stalactite_Water.NS_Caves_Stalactite_Water",
+			"/Game/_Stalker_2/VFX/Environment/WaterLeaks/Niagara/NS_Blood_Dripping_1.NS_Blood_Dripping_1"
+		]
+	},
+	{
+		"Name": "Sparks",
+		"ParticleType": "Sparks",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": []
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 10000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksInteractive_Point_Burst.NS_SparksInteractive_Point_Burst",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksInteractive_Point_Cont.NS_SparksInteractive_Point_Cont",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksInteractive_Point_Electric.NS_SparksInteractive_Point_Electric",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksInteractive_Point_Padlock.NS_SparksInteractive_Point_Padlock",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_burst_1.NS_SparksWire_Cone_burst_1",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_burst_2.NS_SparksWire_Cone_burst_2",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_burst_cont_2.NS_SparksWire_Cone_burst_cont_2",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_burst_cont_3.NS_SparksWire_Cone_burst_cont_3",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_cont_1.NS_SparksWire_Cone_cont_1",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_cont_2.NS_SparksWire_Cone_cont_2",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Point_burst_1.NS_SparksWire_Point_burst_1",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Point_burst_cont_1.NS_SparksWire_Point_burst_cont_1",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Point_cont_1.NS_SparksWire_Point_cont_1",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_burst_cont_4.NS_SparksWire_Cone_burst_cont_4",
+			"/Game/_Stalker_2/VFX/Environment/Sparks/Niagara/NS_SparksWire_Cone_burst_cont_5.NS_SparksWire_Cone_burst_cont_5"
+		]
+	},
+	{
+		"Name": "Insects",
+		"ParticleType": "Insects",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [],
+			"ForbiddenBandwidthTypes": [],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": []
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 2000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_FLY_Ants.NS_FLY_Ants",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_FLY_ChervonoKlop.NS_FLY_ChervonoKlop"
+		]
+	},
+	{
+		"Name": "Flies",
+		"ParticleType": "Flies",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraTimeOfDayNormalizedProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"LightRainy"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 5000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Flies_Corpse.NS_Flies_Corpse",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Flies_Corpse_Surface.NS_Flies_Corpse_Surface",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Flies_Swamp.NS_Flies_Swamp",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Butterfly.NS_Butterfly"
+		]
+	},
+	{
+		"Name": "Fireflies",
+		"ParticleType": "Fireflies",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraTimeOfDayNormalizedProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"LightRainy",
+				"Fogy"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 10000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 18,
+			"DespawnTime": 6
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Fireflies.NS_Fireflies"
+		]
+	},
+	{
+		"Name": "RustyGeyser",
+		"ParticleType": "RustyGeyser",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": []
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 5000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/RustyGeyser/Niagara/NS_RustyGeyser_fountain.NS_RustyGeyser_fountain"
+		]
+	},
+	{
+		"Name": "Steam",
+		"ParticleType": "Steam",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [
+				"Close",
+				"HalfOpen",
+				"Isolated",
+				"Custom"
+			],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": []
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 10000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Steam/NS_Steam_burst_1.NS_Steam_burst_1",
+			"/Game/_Stalker_2/VFX/Environment/Steam/NS_Steam_cont_1.NS_Steam_cont_1",
+			"/Game/_Stalker_2/VFX/Environment/Steam/NS_Steam_cont_2.NS_Steam_cont_2",
+			"/Game/_Stalker_2/VFX/Environment/Steam/NS_AnomalySteam_1.NS_AnomalySteam_1",
+			"/Game/_Stalker_2/VFX/Environment/Steam/NS_AnomalySteam_2.NS_AnomalySteam_2",
+			"/Game/_Stalker_2/VFX/Environment/Steam/NS_AnomalySteam_3.NS_AnomalySteam_3",
+			"/Game/_Stalker_2/VFX/Environment/Steam/NS_Steam_cont_3.NS_Steam_cont_3"
+		]
+	},
+	{
+		"Name": "Water",
+		"ParticleType": "Water",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraPlayerLocationProvider'",
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [],
+			"ForbiddenBandwidthTypes": [],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": []
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 6000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Water/NS_Swamp_Leaves.NS_Swamp_Leaves",
+			"/Game/_Stalker_2/VFX/Environment/Water/NS_Swamp_Nymphaea.NS_Swamp_Nymphaea",
+			"/Game/_Stalker_2/VFX/Environment/Water/Gerridae/NS_Swamp_Gerridae_1.NS_Swamp_Gerridae_1",
+			"/Game/_Stalker_2/VFX/Environment/Water/NS_Water_Toxic.NS_Water_Toxic",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_DragonFly.NS_DragonFly",
+			"/Game/_Stalker_2/VFX/Environment/Caves/NS_Cave_Env_ToxicCloud.NS_Cave_Env_ToxicCloud",
+			"/Game/_Stalker_2/VFX/Environment/Water/NS_Swamp_Leaves_2.NS_Swamp_Leaves_2",
+			"/Game/_Stalker_2/VFX/Environment/Water/NS_Water_Fish.NS_Water_Fish",
+			"/Game/_Stalker_2/VFX/Environment/Water/NS_Water_Fish_2.NS_Water_Fish_2"
+		]
+	},
+	{
+		"Name": "CreepyCrawlyCoalition",
+		"ParticleType": "CreepyCrawlyCoalition",
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraPlayerLocationProvider'"
+		],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [],
+			"ForbiddenBandwidthTypes": [],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 4500
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Lizard/NS_Env_Lizard.NS_Env_Lizard",
+			"/Game/_Stalker_2/VFX/Environment/Lizard/NS_Env_Lizard_Sit.NS_Env_Lizard_Sit",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Cockroaches.NS_Cockroaches",
+			"/Game/_Stalker_2/VFX/Environment/Frog/NS_Env_Frog_WaterFloat.NS_Env_Frog_WaterFloat",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Env_Bee.NS_Env_Bee",
+			"/Game/_Stalker_2/VFX/Environment/Snake/NS_Env_Snake.NS_Env_Snake",
+			"/Game/_Stalker_2/VFX/Environment/Grasshopper/NS_Env_grasshopper.NS_Env_grasshopper",
+			"/Game/_Stalker_2/VFX/Environment/Snake/NS_Env_Snake_Water.NS_Env_Snake_Water",
+			"/Game/_Stalker_2/VFX/Environment/Hedgehog/NS_Env_Hedgehog.NS_Env_Hedgehog",
+			"/Game/_Stalker_2/VFX/Environment/Mouse/NS_Env_Mouse_RunFwrd.NS_Env_Mouse_RunFwrd",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_DragonFly.NS_DragonFly",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Env_Bee_2.NS_Env_Bee_2",
+			"/Game/_Stalker_2/VFX/Environment/Spider/NS_Env_Spider_Line.NS_Env_Spider_Line",
+			"/Game/_Stalker_2/VFX/Environment/Spider/NS_Env_Spider_Zone.NS_Env_Spider_Zone"
+		]
+	},
+	{
+		"Name": "FlyingCrows",
+		"ParticleType": "FlyingCrows",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Rainy",
+				"LightRainy",
+				"Fogy",
+				"Cloudy",
+				"Clearly"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 50000
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Crows/NS_ENV_Crows.NS_ENV_Crows"
+		]
+	},
+	{
+		"Name": "Wildlife",
+		"ParticleType": "Wildlife",
+		"Providers": [],
+		"IndoorSpawnPrototype":
+		{
+			"IgnoredAudioRoomPresets": [
+				"GlobalExterior"
+			],
+			"ForbiddenBandwidthTypes": [],
+			"MinDistanceToAudioVolume": 0
+		},
+		"WeatherTypePrototype":
+		{
+			"AllowedWeatherTypes": [
+				"Clearly",
+				"Cloudy",
+				"Fogy",
+				"Stormy",
+				"LightRainy",
+				"Rainy",
+				"Thundery"
+			]
+		},
+		"LairPrototype":
+		{
+			"LairCheckDistance": 0,
+			"AllowedNPCTypes": []
+		},
+		"PlayerDistancePrototype":
+		{
+			"MaxDistance": 4500
+		},
+		"DaytimePrototype":
+		{
+			"SpawnTime": 0,
+			"DespawnTime": 0
+		},
+		"RainIntensityPrototype":
+		{
+			"AllowedRainIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"WindIntensityPrototype":
+		{
+			"AllowedWindIntensityInterval":
+			{
+				"Min": 0,
+				"Max": 1
+			}
+		},
+		"NiagaraSystems": [
+			"/Game/_Stalker_2/VFX/Environment/Bat/NS_Env_Bat.NS_Env_Bat",
+			"/Game/_Stalker_2/VFX/Environment/Mouse/NS_Env_Mouse.NS_Env_Mouse",
+			"/Game/_Stalker_2/VFX/Environment/Duck/NS_Env_DuckFlyUp.NS_Env_DuckFlyUp",
+			"/Game/_Stalker_2/VFX/Environment/Crows/NS_Env_CrowFlyUp.NS_Env_CrowFlyUp",
+			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Env_ButterflyUP.NS_Env_ButterflyUP"
+		]
+	}
+]

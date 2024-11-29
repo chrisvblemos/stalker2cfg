@@ -1,0 +1,70 @@
+[
+	{
+		"Name": "Default",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_neutrals.T_icon_fraction_neutrals'"
+	},
+	{
+		"Name": "Bandits",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_bandits.T_icon_fraction_bandits'"
+	},
+	{
+		"Name": "Monolith",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_monolith.T_icon_fraction_monolith'"
+	},
+	{
+		"Name": "Duty",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_duty.T_icon_fraction_duty'"
+	},
+	{
+		"Name": "Freedom",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_freedom.T_icon_fraction_freedom'"
+	},
+	{
+		"Name": "Varta",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_varta.T_icon_fraction_varta'"
+	},
+	{
+		"Name": "Neutrals",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_neutrals.T_icon_fraction_neutrals'"
+	},
+	{
+		"Name": "Militaries",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_militaries.T_icon_fraction_militaries'"
+	},
+	{
+		"Name": "Noon",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_noon.T_icon_fraction_noon'"
+	},
+	{
+		"Name": "Scientists",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_scientists.T_icon_fraction_scientists'"
+	},
+	{
+		"Name": "Mercenaries",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_mercenaries.T_icon_fraction_mercenaries'"
+	},
+	{
+		"Name": "Flame",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_flame.T_icon_fraction_flame'"
+	},
+	{
+		"Name": "Law",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_corps.T_icon_fraction_corps'"
+	},
+	{
+		"Name": "Spark",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_spark.T_icon_fraction_spark'"
+	},
+	{
+		"Name": "Corpus",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_corps.T_icon_fraction_corps'"
+	},
+	{
+		"Name": "Diggers",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_bandits.T_icon_fraction_bandits'"
+	},
+	{
+		"Name": "YanovCorpus",
+		"Texture": "/Script/Engine.Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/PDA/FractionIcons/T_icon_fraction_corps.T_icon_fraction_corps'"
+	}
+]

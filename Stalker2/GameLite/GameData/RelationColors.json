@@ -1,0 +1,22 @@
+[
+	{
+		"Name": "Default",
+		"ColourStyleID": "None"
+	},
+	{
+		"Name": "ERelationLevel::Enemy",
+		"ColourStyleID": "Enemy"
+	},
+	{
+		"Name": "ERelationLevel::Disaffection",
+		"ColourStyleID": "Disaffection"
+	},
+	{
+		"Name": "ERelationLevel::Neutral",
+		"ColourStyleID": "Neutral"
+	},
+	{
+		"Name": "ERelationLevel::Friend",
+		"ColourStyleID": "Friend"
+	}
+]

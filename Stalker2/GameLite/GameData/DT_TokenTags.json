@@ -1,0 +1,312 @@
+[
+	{
+		"Name": "Title",
+		"Tag": "TokenTag",
+		"DevComment": ""
+	},
+	{
+		"Name": "Melee",
+		"Tag": "TokenTag.Melee",
+		"DevComment": ""
+	},
+	{
+		"Name": "ButtStroke",
+		"Tag": "TokenTag.Melee.ButtStroke",
+		"DevComment": "Humans"
+	},
+	{
+		"Name": "ClawAttack",
+		"Tag": "TokenTag.Melee.ClawAttack",
+		"DevComment": "Require TokenTag.Movement.MoveToEnemy"
+	},
+	{
+		"Name": "ClawAttack_1",
+		"Tag": "TokenTag.Melee.ClawAttack.Bloodsucker",
+		"DevComment": "Bloodsucker"
+	},
+	{
+		"Name": "ClawAttack_2",
+		"Tag": "TokenTag.Melee.ClawAttack.BlindDog",
+		"DevComment": "BlindDog"
+	},
+	{
+		"Name": "ClawAttack_3",
+		"Tag": "TokenTag.Melee.ClawAttack.Flesh",
+		"DevComment": "Flesh"
+	},
+	{
+		"Name": "ClawAttack_4",
+		"Tag": "TokenTag.Melee.ClawAttack.Boar",
+		"DevComment": "Boar"
+	},
+	{
+		"Name": "RunAttack",
+		"Tag": "TokenTag.Melee.RunAttack",
+		"DevComment": "Require TokenTag.Movement.MoveToEnemy"
+	},
+	{
+		"Name": "RunAttack_1",
+		"Tag": "TokenTag.Melee.RunAttack.Bloodsucker",
+		"DevComment": "Bloodsucker"
+	},
+	{
+		"Name": "RunAttack_2",
+		"Tag": "TokenTag.Melee.RunAttack.BlindDog",
+		"DevComment": "BlindDog"
+	},
+	{
+		"Name": "RunAttack_3",
+		"Tag": "TokenTag.Melee.RunAttack.Boar",
+		"DevComment": "Boar"
+	},
+	{
+		"Name": "Ragne",
+		"Tag": "TokenTag.Range",
+		"DevComment": ""
+	},
+	{
+		"Name": "Shot",
+		"Tag": "TokenTag.Range.Shot",
+		"DevComment": "Humans"
+	},
+	{
+		"Name": "PsyAttack",
+		"Tag": "TokenTag.Range.PsyAttack",
+		"DevComment": ""
+	},
+	{
+		"Name": "PsyAttack_1",
+		"Tag": "TokenTag.Range.PsyAttack.Controller",
+		"DevComment": "Controller"
+	},
+	{
+		"Name": "ItemThrow",
+		"Tag": "TokenTag.Range.ItemThrow",
+		"DevComment": ""
+	},
+	{
+		"Name": "ItemThrow_1",
+		"Tag": "TokenTag.Range.ItemThrow.Poltergeist",
+		"DevComment": "Poltergeist"
+	},
+	{
+		"Name": "Telekinesis",
+		"Tag": "TokenTag.Range.Telekinesis",
+		"DevComment": ""
+	},
+	{
+		"Name": "Telekinesis_1",
+		"Tag": "TokenTag.Range.Telekinesis.Burer",
+		"DevComment": "Burer"
+	},
+	{
+		"Name": "Movement",
+		"Tag": "TokenTag.Movement",
+		"DevComment": ""
+	},
+	{
+		"Name": "Movement_1",
+		"Tag": "TokenTag.Movement.PositionChange",
+		"DevComment": "Humans"
+	},
+	{
+		"Name": "Movement_2",
+		"Tag": "TokenTag.Movement.MoveToEnemy",
+		"DevComment": "Mutants: approaching the enemy"
+	},
+	{
+		"Name": "Movement_3",
+		"Tag": "TokenTag.Movement.BackStab",
+		"DevComment": "Mutants: approaching from behind (require TokenTag.Movement.MoveToEnemy)"
+	},
+	{
+		"Name": "CombatAction",
+		"Tag": "TokenTag.CombatAction",
+		"DevComment": "Humans"
+	},
+	{
+		"Name": "CombatAction_1",
+		"Tag": "TokenTag.CombatAction.Flank",
+		"DevComment": ""
+	},
+	{
+		"Name": "CombatAction_2",
+		"Tag": "TokenTag.CombatAction.Advance",
+		"DevComment": ""
+	},
+	{
+		"Name": "Advance_1",
+		"Tag": "TokenTag.CombatAction.Advance.Action",
+		"DevComment": ""
+	},
+	{
+		"Name": "Advance_2",
+		"Tag": "TokenTag.CombatAction.Advance.Approach",
+		"DevComment": ""
+	},
+	{
+		"Name": "CombatAction_3",
+		"Tag": "TokenTag.CombatAction.ThrowGrenade",
+		"DevComment": ""
+	},
+	{
+		"Name": "CombatAction_4",
+		"Tag": "TokenTag.CombatAction.SuppressiveFire",
+		"DevComment": ""
+	},
+	{
+		"Name": "CombatAction_5",
+		"Tag": "TokenTag.CombatAction.BlindFire",
+		"DevComment": ""
+	},
+	{
+		"Name": "Evade",
+		"Tag": "TokenTag.CombatAction.Evade",
+		"DevComment": ""
+	},
+	{
+		"Name": "Evade_1",
+		"Tag": "TokenTag.CombatAction.Evade.Back",
+		"DevComment": ""
+	},
+	{
+		"Name": "Evade_2",
+		"Tag": "TokenTag.CombatAction.Evade.Side",
+		"DevComment": ""
+	},
+	{
+		"Name": "Evade_3",
+		"Tag": "TokenTag.CombatAction.Evade.Left",
+		"DevComment": "Do not use this tag directly except pose search"
+	},
+	{
+		"Name": "Evade_4",
+		"Tag": "TokenTag.CombatAction.Evade.Right",
+		"DevComment": "Do not use this tag directly except pose search"
+	},
+	{
+		"Name": "Evade_5",
+		"Tag": "TokenTag.CombatAction.Evade.Granit",
+		"DevComment": "Granit"
+	},
+	{
+		"Name": "Evade_6",
+		"Tag": "TokenTag.CombatAction.Evade.Granit.Back",
+		"DevComment": ""
+	},
+	{
+		"Name": "Evade_7",
+		"Tag": "TokenTag.CombatAction.Evade.Granit.Side",
+		"DevComment": ""
+	},
+	{
+		"Name": "Evade_8",
+		"Tag": "TokenTag.CombatAction.Evade.Granit.Left",
+		"DevComment": "Do not use this tag directly except pose search"
+	},
+	{
+		"Name": "Evade_9",
+		"Tag": "TokenTag.CombatAction.Evade.Granit.Right",
+		"DevComment": "Do not use this tag directly except pose search"
+	},
+	{
+		"Name": "Ability",
+		"Tag": "TokenTag.Ability",
+		"DevComment": ""
+	},
+	{
+		"Name": "Knockdown",
+		"Tag": "TokenTag.Ability.Knockdown",
+		"DevComment": ""
+	},
+	{
+		"Name": "JumpAttack",
+		"Tag": "TokenTag.Ability.Knockdown.JumpAttack",
+		"DevComment": "Require TokenTag.Movement.MoveToEnemy"
+	},
+	{
+		"Name": "JumpAttack_1",
+		"Tag": "TokenTag.Ability.Knockdown.JumpAttack.Bloodsucker",
+		"DevComment": "Bloodsucker"
+	},
+	{
+		"Name": "JumpAttack_2",
+		"Tag": "TokenTag.Movement.Knockdown.JumpAttack.Flesh",
+		"DevComment": "Flesh"
+	},
+	{
+		"Name": "JumpAttack_3",
+		"Tag": "TokenTag.Ability.Knockdown.JumpAttack.Chimera",
+		"DevComment": "Chimera"
+	},
+	{
+		"Name": "Shockwave",
+		"Tag": "TokenTag.Ability.Knockdown.Shockwave",
+		"DevComment": ""
+	},
+	{
+		"Name": "Shockwave_1",
+		"Tag": "TokenTag.Ability.Knockdown.Shockwave.Pseudogiant",
+		"DevComment": "Pseudogiant"
+	},
+	{
+		"Name": "Charge",
+		"Tag": "TokenTag.Ability.Knockdown.Charge",
+		"DevComment": ""
+	},
+	{
+		"Name": "Charge_1",
+		"Tag": "TokenTag.Ability.Knockdown.Charge.Boar",
+		"DevComment": "Boar"
+	},
+	{
+		"Name": "Stun",
+		"Tag": "TokenTag.Ability.Stun",
+		"DevComment": ""
+	},
+	{
+		"Name": "Stun_1",
+		"Tag": "TokenTag.Ability.Stun.Bloodsucker",
+		"DevComment": "Bloodsucker"
+	},
+	{
+		"Name": "Growl",
+		"Tag": "TokenTag.Ability.Growl",
+		"DevComment": ""
+	},
+	{
+		"Name": "Growl_1",
+		"Tag": "TokenTag.Ability.Growl.BlindDog",
+		"DevComment": "BlindDog"
+	},
+	{
+		"Name": "Growl_2",
+		"Tag": "TokenTag.Ability.Growl.Flesh",
+		"DevComment": "Flesh"
+	},
+	{
+		"Name": "Growl_3",
+		"Tag": "TokenTag.Ability.Growl.Boar",
+		"DevComment": "Boar"
+	},
+	{
+		"Name": "Summon",
+		"Tag": "TokenTag.Ability.Summon",
+		"DevComment": ""
+	},
+	{
+		"Name": "ActivateAnomaly",
+		"Tag": "TokenTag.Range.ActivateAnomaly",
+		"DevComment": ""
+	},
+	{
+		"Name": "ActivateAnomaly_1",
+		"Tag": "TokenTag.Range.ActivateAnomaly.Poltergeist",
+		"DevComment": "Poltergeist"
+	},
+	{
+		"Name": "ActivateAnomaly_2",
+		"Tag": "TokenTag.Ability.ActivateAnomaly.Strelok",
+		"DevComment": "Strelok"
+	}
+]

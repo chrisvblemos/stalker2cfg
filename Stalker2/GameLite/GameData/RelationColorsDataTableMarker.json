@@ -1,0 +1,22 @@
+[
+	{
+		"Name": "Default",
+		"ColourStyleID": "None"
+	},
+	{
+		"Name": "ERelationLevel::Enemy",
+		"ColourStyleID": "EnemyCompassMarker"
+	},
+	{
+		"Name": "ERelationLevel::Disaffection",
+		"ColourStyleID": "DisaffectionCompassMarker"
+	},
+	{
+		"Name": "ERelationLevel::Neutral",
+		"ColourStyleID": "NeutralCompassMarker"
+	},
+	{
+		"Name": "ERelationLevel::Friend",
+		"ColourStyleID": "FriendCompassMarker"
+	}
+]
