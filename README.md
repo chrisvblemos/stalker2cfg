@@ -17,14 +17,4 @@ Contains the Steam version.
 
 ## GDK Branch
 Contains the Game Pass version.
-**Current Version**: 1.0.1
-
---------------------------------
-
-## Where is the SpawnActorPrototypes folder?
-
-`SpawnActorPrototypes` folder is not included due to the amount of cfg files (around 120k+ files), which is a pain in the ass to track/copy/move. 
-Shouldn't matter much as they are definitions of lairs, trigger boxes, i.e map stuff that is not so easily modded without proper SDK tools.
-The side-effect of not having them is that some SIDs referenced by quests might lead to no files in the repo. When this happens, you can assume that it references some NPC, TriggerBox and/or other map object instances.
-
-
+**Current Version**: 1.0.1 _(missing SpawnActorPrototypes for now)_
