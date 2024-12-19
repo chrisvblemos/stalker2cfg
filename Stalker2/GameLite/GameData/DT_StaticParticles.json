@@ -409,7 +409,9 @@
 	{
 		"Name": "PipeSmoke",
 		"ParticleType": "PipeSmoke",
-		"Providers": [],
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
+		],
 		"IndoorSpawnPrototype":
 		{
 			"IgnoredAudioRoomPresets": [
@@ -633,7 +635,7 @@
 		},
 		"PlayerDistancePrototype":
 		{
-			"MaxDistance": 5000
+			"MaxDistance": 4500
 		},
 		"DaytimePrototype":
 		{
@@ -1158,13 +1160,16 @@
 			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_DragonFly.NS_DragonFly",
 			"/Game/_Stalker_2/VFX/Environment/Flies/Niagara/NS_Env_Bee_2.NS_Env_Bee_2",
 			"/Game/_Stalker_2/VFX/Environment/Spider/NS_Env_Spider_Line.NS_Env_Spider_Line",
-			"/Game/_Stalker_2/VFX/Environment/Spider/NS_Env_Spider_Zone.NS_Env_Spider_Zone"
+			"/Game/_Stalker_2/VFX/Environment/Spider/NS_Env_Spider_Zone.NS_Env_Spider_Zone",
+			"/Game/_Stalker_2/VFX/Environment/Bat/NS_ENV_Bat_Vortex_Frwd.NS_ENV_Bat_Vortex_Frwd"
 		]
 	},
 	{
 		"Name": "FlyingCrows",
 		"ParticleType": "FlyingCrows",
-		"Providers": [],
+		"Providers": [
+			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraTimeOfDayNormalizedProvider'"
+		],
 		"IndoorSpawnPrototype":
 		{
 			"IgnoredAudioRoomPresets": [
@@ -1214,7 +1219,8 @@
 			}
 		},
 		"NiagaraSystems": [
-			"/Game/_Stalker_2/VFX/Environment/Crows/NS_ENV_Crows.NS_ENV_Crows"
+			"/Game/_Stalker_2/VFX/Environment/Crows/NS_ENV_Crows.NS_ENV_Crows",
+			"/Game/_Stalker_2/VFX/Environment/Bat/NS_ENV_Bat_Vortex.NS_ENV_Bat_Vortex"
 		]
 	},
 	{
