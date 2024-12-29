@@ -13,7 +13,7 @@ There is also support for "struct" inheritance, done by `{refurl = ...; refkey =
 
 ## Main Branch
 Contains the Steam version. 
-**Current Version**: 1.1.2
+**Current Version**: 1.1.3
 
 ## GDK Branch
 Contains the Game Pass version.
